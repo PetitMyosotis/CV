@@ -2,8 +2,7 @@ $(function(){
        $("#etudesDiplomes").hide();
        $("#experiences").hide();
        $("#centreDinteret").hide();
-       $("#img").hide();
-       $("#img").fadeIn(4000);
+       $("#btnAboutme").css("background-color","white");
 });
 
 $(function(){
@@ -12,6 +11,10 @@ $(function(){
        $("#etudesDiplomes").hide();
        $("#experiences").hide();
        $("#centreDinteret").hide();
+       $("#btnAboutme").css("background-color","white");
+       $("#btnEtudes").css("background-color","bisque");
+       $("#btnExperiences").css("background-color","bisque");
+       $("#btnCentreDinteret").css("background-color","bisque");
     });
 });
 
@@ -21,6 +24,10 @@ $(function(){
        $("#aboutme").hide();
        $("#experiences").hide();
        $("#centreDinteret").hide();
+       $("#btnEtudes").css("background-color","white");
+       $("#btnAboutme").css("background-color","bisque");
+       $("#btnExperiences").css("background-color","bisque");
+       $("#btnCentreDinteret").css("background-color","bisque");
     });
 });
 
@@ -30,6 +37,10 @@ $(function(){
        $("#aboutme").hide();
        $("#etudesDiplomes").hide();
        $("#centreDinteret").hide();
+       $("#btnExperiences").css("background-color","white");
+       $("#btnAboutme").css("background-color","bisque");
+       $("#btnEtudes").css("background-color","bisque");
+       $("#btnCentreDinteret").css("background-color","bisque");
     });
 });
 
@@ -39,6 +50,47 @@ $(function(){
        $("#aboutme").hide();
        $("#etudesDiplomes").hide();
        $("#experiences").hide();
+       $("#btnCentreDinteret").css("background-color","white");
+       $("#btnAboutme").css("background-color","bisque");
+       $("#btnEtudes").css("background-color","bisque");
+       $("#btnExperiences").css("background-color","bisque");
     });
 });
 
+$(function(){
+        $(".btnPlus").hover(function(){
+          $(this).css("background-color", "white");
+          }, function(){
+          $(this).css("background-color", "bisque");
+        });
+});
+
+$(function(){
+    $("#btnPlus1").click(function(){
+      $("#p1").toggle();
+    });
+});
+
+$(function(){
+    $("#btnPlus2").click(function(){
+      $("#p2").toggle();
+    });
+});
+
+$(function(){
+    $("#btnPlus3").click(function(){
+      $("#p3").toggle();
+    });
+});
+
+$(function(){
+    $("#btnPlus4").click(function(){
+      $("#p4").toggle();
+    });
+});
+
+$(function(){
+    $("#btnPlus5").click(function(){
+      $("#p5").toggle();
+    });
+});

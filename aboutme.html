@@ -3,26 +3,32 @@
 <head>
     <title>about me</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet"> 
     <script src="jquery-3.6.0.js"></script>
     <script src="script.js"></script>
 </head>
-<body>
+<body>   
 <header>
-<div>
-<img id="img" src="https://zupimages.net/up/21/43/r2gq.jpg" alt="Marie-Line">
-    <div>
+<div class="bloc">
+<img class="bloc1" id="img" src="https://zupimages.net/up/21/43/r2gq.jpg" alt="Marie-Line">
+    <div class="bloc2">
         <h1>Marie-Line El Houakmi</h1>
         <h2>26 ans</h2>
         <h3>Recherche une alternance de développeur web</h3>
     </div>
 </div>
-     <button id="btnAboutme">About me</button>
-     <button id="btnEtudes">Etudes et diplômes</button>
-     <button id="btnExperiences">Expérience professionnelles</button>
-     <button id="btnCentreDinteret">Centres d'intérêts</button>
+<div id="button">
+     <button class=btnMenu id="btnAboutme">About me</button>
+     <button class=btnMenu id="btnEtudes">Etudes et diplômes</button>
+     <button class=btnMenu id="btnExperiences">Expérience professionnelles</button>
+     <button class=btnMenu id="btnCentreDinteret">Centres d'intérêts</button>
+</div>     
 </header>
+<div id="contenuPage">
 <div id="aboutme">
-    Je suis d'un naturel enjoué et dynamique. Je m'intégre très bien dans un groupe de travail.
+     Je suis d'un naturel enjoué et dynamique. Je m'intégre très bien dans un groupe de travail.
      J'aime d'ailleurs l'émulation du travail en équipe. Je cherche à devenir développeuse car j'aime le challenge de devoir chercher une solution à des problèmes. 
      Grâce à mes études, j'ai acquis une habitude de travail en autonomie. J'ai l'habitude de m'autoformer. J'apprécie apprendre constamment de nouvelles choses. 
      Ce travail nécessite qu'on se tienne sans cesse informé des dernières avancés ce que j'apprécie tout particulièrement. 
@@ -47,41 +53,51 @@
 </div>
 
 <div id="experiences">
-    <p>Mise en place d'une séquence d'enseignement de roller sur une période de deux mois avec démonstration de roller freestyle par un intervenant extérieur.</p>
-        <p>Entre mai et juin 2021. Découverte en classe des divers disciplines du roller (freestyle, vitesse, artisitique) dans une classe de CE1-CE2. Démonstration de roller
+    <ul>
+    <li>Mise en place d'une séquence d'enseignement de roller sur une période de deux mois avec démonstration de roller freestyle par un intervenant extérieur.</li>
+    <button id="btnPlus1" class="btnPlus">Plus</button>
+        <p id="p1" class="hide">Entre mai et juin 2021. Découverte en classe des divers disciplines du roller (freestyle, vitesse, artisitique) dans une classe de CE1-CE2. Démonstration de roller
         freestyle pour toute l'école.
         </p>
     
-    <p>Mise en place d'une séquence sur la programmation avec atelier de mise en situation irl et sur le logiciel scratch pour des élèves de 10 et 11 ans.</p>
-        <p>Séquence qui demande surtout de faire se déplacer un personnage. Les élèves vivent d'abord la situation en le jouant, puis ils passent sur le logiciel.</p>
-    <p>Mise en place de divers suivi personnalisé d'élève en accord avec une équipe pluridisciplinaire et médicale.</p>
-        <p>Des premiers dyagnostiques sont faits par mes soins à la suite de quoi des demandes de rendez-vous avec des professionnels sont demandés 
+    <li>Mise en place d'une séquence sur la programmation avec atelier de mise en situation irl et sur le logiciel scratch pour des élèves de 10 et 11 ans.</li>
+    <button id="btnPlus2" class="btnPlus">Plus</button>
+        <p id="p2" class="hide">Séquence qui demande surtout de faire se déplacer un personnage. Les élèves vivent d'abord la situation en le jouant, puis ils passent sur le logiciel.</p>
+    <li>Mise en place de divers suivi personnalisé d'élève en accord avec une équipe pluridisciplinaire et médicale.</li>
+    <button id="btnPlus3" class="btnPlus">Plus</button>
+        <p id="p3" class="hide">Des premiers dyagnostiques sont faits par mes soins à la suite de quoi des demandes de rendez-vous avec des professionnels sont demandés 
         Si le diagnostique est avénée un suivi personnalisé est mise en place avec des réunions de l'équipe éducative une fois par trimestre pour faire le point 
         sur la scolarité de l'enfant.
         </p>
-    <p>Aide à la mise en place d'une aide au devoir par la mairie de Saint-Paterne-Racan.</p>
-    <p>Travail avec l'équipe pédagogique de Saint-Paterne-Racan pour la mise en place d'une journée école dehors.</p>
-        <p>Le but est d'amener les élèves dans un espace naturelle pendant une demi-journée pour mettre en pratique les enseignements réalisés en classe
+    <li>Aide à la mise en place d'une aide au devoir par la mairie de Saint-Paterne-Racan.</li>
+    <li>Travail avec l'équipe pédagogique de Saint-Paterne-Racan pour la mise en place d'une journée école dehors.</li>
+    <button id="btnPlus4" class="btnPlus">Plus</button>
+        <p id="p4" class="hide">Le but est d'amener les élèves dans un espace naturelle pendant une demi-journée pour mettre en pratique les enseignements réalisés en classe
             Il est important d'ancré les enseignements dans l'action et la réalité pour que les enfants se sentent acteurs. Cela développe la curiosité,
             l'initiative et l'autonomie. La notion de préservation de l'environnement est omnis présente.
         </p>
-    <p>Mise en place d'une journée sciences pour des élèves de 4 à 6 ans avec divers expériences dans le but de développer le goût des sciences. Réalisation d'un film.</p>
-    <p>Mise en place d'une journée Olympiade pour des élèves de 4 à 6 ans. Plusieurs ateliers sportifs tenu par des parents d'élèves.</p>
-    <p>Soutenance de Mémoire de recherche le 27 juin 2018 : "De l'intuition du nombre à la quantité en petite section"</p>
-        <p>Résumé: Nous avons dès l'aube de notrre vie des intuitions des nombres qui nous permettent de faire des approximations des quantités d'objets qui nous entourent.
+    <li>Mise en place d'une journée sciences pour des élèves de 4 à 6 ans avec divers expériences dans le but de développer le goût des sciences. Réalisation d'un film.</li>
+    <li>Mise en place d'une journée Olympiade pour des élèves de 4 à 6 ans. Plusieurs ateliers sportifs tenu par des parents d'élèves.</li>
+    <li>Soutenance de Mémoire de recherche le 27 juin 2018 : "De l'intuition du nombre à la quantité en petite section"</li>
+    <button id="btnPlus5" class="btnPlus">Plus</button>
+        <p id="p5" class="hide">Résumé: Nous avons dès l'aube de notrre vie des intuitions des nombres qui nous permettent de faire des approximations des quantités d'objets qui nous entourent.
         Pourtant et malgré l'existence de ces prédispositions, rares sont les Français qui se considèrent comme bon en mathématiques. D'ailleurs, les études comme PISA vont dans ce sens.
         Dans ce mémoire, nous posont l'hypothèse que les échecs en mathématiques existence car les élèves possèdent des bases qui ne sont pas assez stables. En effet, une mauvaise compréhension
         de la notion de nombre peut entraîner des problèmes dans toutes la scolarité d'un élève.
         Aussi, nous avons mis en place une séquence inspirée de la théorie des situations, telle que définie par Brousseau, pour permettre à nos élèves de petite section de se construire
         une bonne compréhension de la notion de quantité.
         </p>
+    </ul>
 </div>
 
 <div id="centreDinteret">
-    <p>J'aime créer. Je fais du tricot, de la broderie et de la couture.</p>
-    <p>J'ai les plantes j'en ai une vingtaine à la maison. J'ai comme projet de créer un hudificateur d'air en domotique.</p>
-    <p>J'aime beaucoup lire, je lis environ cinq romans par mois.</p>
-    <p>Je fais de l'escalade indoor et de la zumba.</p>
+    <ul>
+    <li>J'aime créer. Je fais du tricot, de la broderie et de la couture.</li>
+    <li>J'aime les plantes j'en ai une vingtaine à la maison. J'ai comme projet de créer un hudificateur d'air en domotique.</li>
+    <li>J'aime beaucoup lire, je lis environ cinq romans par mois.</li>
+    <li>Je fais de l'escalade indoor et de la zumba.</li>
+    </ul>
+</div>
 </div>
 </body>
 </html> 

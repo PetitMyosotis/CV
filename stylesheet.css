@@ -1,3 +1,47 @@
-.inline {
-    display: inline;
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0 auto;
+  width: 800px;
+}
+.bloc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "a b";
+  }
+  .bloc:nth-child(1) {
+    grid-area: a;
+  }
+  .bloc:nth-child(2) {
+    grid-area: b;
+  }
+.bloc2 {
+    margin: 50px 50px;
+    
+}
+#img {
+  margin-top: 10px;
+}
+.btnMenu {
+   background-color: bisque;
+   border: none;
+   padding:15px 32px;
+}
+
+#button {
+  background-color: bisque;
+}
+
+#aboutme {
+  margin: 20px 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.btnPlus {
+  background-color: bisque;
+  border:none;
 }
