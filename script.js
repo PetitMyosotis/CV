@@ -1,16 +1,7 @@
 ///////////////////MENU//////////////////////////
-
 $(function(){
-       $("#etudesDiplomes").hide();
-       $("#experiences").hide();
-       $("#centreDinteret").hide();
-       $("#contact").hide();
-       $("#btnAboutme").css("background-color","white");
-});
-
-$(function(){
-    $("#btnAboutme").click(function(){
-       $("#aboutme").show();
+   $("#btnAboutme").click(function(){
+       $("#aboutme").fadeIn();
        $("#etudesDiplomes").hide();
        $("#experiences").hide();
        $("#centreDinteret").hide();
@@ -21,11 +12,11 @@ $(function(){
        $("#btnCentreDinteret").css("background-color","bisque");
        $("#btnContact").css("background-color","bisque");
     });
-});
+ });
 
 $(function(){
     $("#btnEtudes").click(function(){
-       $("#etudesDiplomes").show(); 
+       $("#etudesDiplomes").fadeIn(); 
        $("#aboutme").hide();
        $("#experiences").hide();
        $("#centreDinteret").hide();
@@ -40,7 +31,7 @@ $(function(){
 
 $(function(){
     $("#btnExperiences").click(function(){
-       $("#experiences").show(); 
+       $("#experiences").fadeIn(); 
        $("#aboutme").hide();
        $("#etudesDiplomes").hide();
        $("#centreDinteret").hide();
@@ -55,7 +46,7 @@ $(function(){
 
 $(function(){
     $("#btnCentreDinteret").click(function(){
-       $("#centreDinteret").show(); 
+       $("#centreDinteret").fadeIn(); 
        $("#aboutme").hide();
        $("#etudesDiplomes").hide();
        $("#experiences").hide();
@@ -70,7 +61,7 @@ $(function(){
 
 $(function(){
   $("#btnContact").click(function(){
-     $("#contact").show(); 
+     $("#contact").fadeIn(); 
      $("#centreDinteret").hide();
      $("#aboutme").hide();
      $("#etudesDiplomes").hide();
