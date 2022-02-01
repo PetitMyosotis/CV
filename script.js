@@ -6,11 +6,13 @@ $(function(){
        $("#experiences").hide();
        $("#centreDinteret").hide();
        $("#contact").hide();
+       $("#competences").hide();
        $("#btnAboutme").css("background-color","white");
        $("#btnEtudes").css("background-color","bisque");
        $("#btnExperiences").css("background-color","bisque");
        $("#btnCentreDinteret").css("background-color","bisque");
        $("#btnContact").css("background-color","bisque");
+       $("#btnCompetences").css("background-color","bisque");
     });
  });
 
@@ -21,11 +23,13 @@ $(function(){
        $("#experiences").hide();
        $("#centreDinteret").hide();
        $("#contact").hide();
+       $("#competences").hide();
        $("#btnEtudes").css("background-color","white");
        $("#btnAboutme").css("background-color","bisque");
        $("#btnExperiences").css("background-color","bisque");
        $("#btnCentreDinteret").css("background-color","bisque");
        $("#btnContact").css("background-color","bisque");
+       $("#btnCompetences").css("background-color","bisque");
     });
 });
 
@@ -36,11 +40,13 @@ $(function(){
        $("#etudesDiplomes").hide();
        $("#centreDinteret").hide();
        $("#contact").hide();
+       $("#competences").hide();
        $("#btnExperiences").css("background-color","white");
        $("#btnAboutme").css("background-color","bisque");
        $("#btnEtudes").css("background-color","bisque");
        $("#btnCentreDinteret").css("background-color","bisque");
        $("#btnContact").css("background-color","bisque");
+       $("#btnCompetences").css("background-color","bisque");
     });
 });
 
@@ -51,11 +57,13 @@ $(function(){
        $("#etudesDiplomes").hide();
        $("#experiences").hide();
        $("#contact").hide();
+       $("#competences").hide();
        $("#btnCentreDinteret").css("background-color","white");
        $("#btnAboutme").css("background-color","bisque");
        $("#btnEtudes").css("background-color","bisque");
        $("#btnExperiences").css("background-color","bisque");
        $("#btnContact").css("background-color","bisque");
+       $("#btnCompetences").css("background-color","bisque");
     });
 });
 
@@ -66,13 +74,33 @@ $(function(){
      $("#aboutme").hide();
      $("#etudesDiplomes").hide();
      $("#experiences").hide();
+     $("#competences").hide();
      $("#btnContact").css("background-color","white");
      $("#btnAboutme").css("background-color","bisque");
      $("#btnEtudes").css("background-color","bisque");
      $("#btnExperiences").css("background-color","bisque");
      $("#btnCentreDinteret").css("background-color","bisque");
+     $("#btnCompetences").css("background-color","bisque");
   });
 });
+
+$(function(){
+  $("#btnCompetences").click(function(){
+     $("#competences").fadeIn(); 
+     $("#aboutme").hide();
+     $("#experiences").hide();
+     $("#etudesDiplomes").hide();
+     $("#centreDinteret").hide();
+     $("#contact").hide();
+     $("#btnCompetences").css("background-color","white");
+     $("#btnEtudes").css("background-color","bisque");
+     $("#btnAboutme").css("background-color","bisque");
+     $("#btnExperiences").css("background-color","bisque");
+     $("#btnCentreDinteret").css("background-color","bisque");
+     $("#btnContact").css("background-color","bisque");
+  });
+});
+
 ////////////////////////// BOUTON PLUS /////////////////////
 $(function(){
         $(".btnPlus").hover(function(){

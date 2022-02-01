@@ -1,10 +1,14 @@
 
+html {height:100.3%;}
+
+/* Police */
 body {
   font-family: 'Nunito Sans', sans-serif;
-  margin: 0 auto;
-  width: 900px;
+  margin: auto;
+  max-width: 900px;
 }
 
+/* Fade In */
 .fade-in-image {
   animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
@@ -37,6 +41,7 @@ body {
   100% {opacity:1;}
 }
 
+/* Placement dans l'entête */
 .bloc {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -81,3 +86,9 @@ body {
   text-indent:20px;
 }
 
+video {
+  max-width: 400px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
