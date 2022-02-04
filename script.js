@@ -12,7 +12,7 @@ $(function(){
        $("#btnExperiences").css("background-color","bisque");
        $("#btnCentreDinteret").css("background-color","bisque");
        $("#btnContact").css("background-color","bisque");
-       $("#btnCompetences").css("background-color","bisque");
+       $("#btnProjetPro").css("background-color","bisque");
     });
  });
 
@@ -29,7 +29,7 @@ $(function(){
        $("#btnExperiences").css("background-color","bisque");
        $("#btnCentreDinteret").css("background-color","bisque");
        $("#btnContact").css("background-color","bisque");
-       $("#btnCompetences").css("background-color","bisque");
+       $("#btnProjetPro").css("background-color","bisque");
     });
 });
 
@@ -46,7 +46,7 @@ $(function(){
        $("#btnEtudes").css("background-color","bisque");
        $("#btnCentreDinteret").css("background-color","bisque");
        $("#btnContact").css("background-color","bisque");
-       $("#btnCompetences").css("background-color","bisque");
+       $("#btnProjetPro").css("background-color","bisque");
     });
 });
 
@@ -57,13 +57,13 @@ $(function(){
        $("#etudesDiplomes").hide();
        $("#experiences").hide();
        $("#contact").hide();
-       $("#competences").hide();
+       $("#projetPro").hide();
        $("#btnCentreDinteret").css("background-color","white");
        $("#btnAboutme").css("background-color","bisque");
        $("#btnEtudes").css("background-color","bisque");
        $("#btnExperiences").css("background-color","bisque");
        $("#btnContact").css("background-color","bisque");
-       $("#btnCompetences").css("background-color","bisque");
+       $("#btnProjetPro").css("background-color","bisque");
     });
 });
 
@@ -80,19 +80,19 @@ $(function(){
      $("#btnEtudes").css("background-color","bisque");
      $("#btnExperiences").css("background-color","bisque");
      $("#btnCentreDinteret").css("background-color","bisque");
-     $("#btnCompetences").css("background-color","bisque");
+     $("#btnProjetPro").css("background-color","bisque");
   });
 });
 
 $(function(){
-  $("#btnCompetences").click(function(){
-     $("#competences").fadeIn(); 
+  $("#btnProjetPro").click(function(){
+     $("#projetPro").fadeIn(); 
      $("#aboutme").hide();
      $("#experiences").hide();
      $("#etudesDiplomes").hide();
      $("#centreDinteret").hide();
      $("#contact").hide();
-     $("#btnCompetences").css("background-color","white");
+     $("#btnProjetPro").css("background-color","white");
      $("#btnEtudes").css("background-color","bisque");
      $("#btnAboutme").css("background-color","bisque");
      $("#btnExperiences").css("background-color","bisque");
